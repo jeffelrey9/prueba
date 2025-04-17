@@ -1,0 +1,241 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>pagina web</title>
+</head>
+<body >
+    
+  <link rel="stylesheet" href="./css/style2.css">
+<title>Document</title>
+<style>
+    /* Estilos adicionales */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-image: url('./fondop.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+    }
+
+    .main {
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .cabeza {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #142d47;
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .logo img {
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(12, 42, 56, 0.9);
+        border-radius: 10px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 16px;
+        margin: 0 20px;
+    }
+
+    .sobre-mi {
+        background-color: rgba(12, 42, 56, 0.9);
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        font-family: Arial, sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .sobre-mi h2 {
+        margin-top: 0;
+        color: #fff;
+        text-align: center;
+    }
+
+    .sobre-mi p {
+        margin: 10px 0;
+        line-height: 1.5;
+    }
+
+    .imagen-inferior {
+        text-align: center;
+    }
+
+    .imagen-inferior img {
+        max-width: 35%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <main class="main">
+        <header class="cabeza">
+            <a class="logo" href="#">
+                <img src="./unidlogo1.png" alt="">Portafolio Digital Interactivo
+            </a>
+        </header>
+
+        <section class="menu">
+            <nav>
+                <a href="./index.html">Inicio</a>
+                <a href="./index2.html">Sesiones</a>
+                <a href="./index3.html">Conclusiones</a>
+            </nav>
+        </section>
+
+        <!-- Sección sobre mí -->
+        <section class="sobre-mi">
+            <h2>Sobre mí:</h2>
+            <p>Hola, ¿qué tal?, mucho gusto, mi nombre es Julián, y este es mi portafolio interactivo.</p>
+            <p>¿Te gustaría saber por qué o para qué lo hago? Bueno, pues aquí está la razón:</p>
+            <p>Creé este portafolio interactivo como una forma de mostrar no solo mis proyectos, sino también mi estilo, creatividad y la forma en que pienso.</p>
+            <p>Quería que fuera algo más que una simple galería: una experiencia que refleje quién soy como profesional y lo que puedo aportar.</p>
+            <p>Cada sección está pensada para ser clara, funcional y con un toque personal. ¡Espero que lo disfrutes tanto como yo disfruté creándolo!</p>
+        </section>
+
+        <!-- Imagen debajo del cuadro -->
+        <section class="imagen-inferior">
+            <img src="./dib2.png" alt="Imagen descriptiva">
+        </section>
+    </main>
+</div>
+
+    <section class="ubicacion">
+        <div class="info-mapa-container">
+            <div class="info-box">
+              <div class="info-title">Sesiones:</div>
+              <div class="info-content">
+                A lo largo de las semanas, en esta materia han transcurrido múltiples sesiones, a través de las cuales, hemos adquirido muchos conocimientos, en esta sección se puede acceder fácilmente a cada una de esas sesiones, solo da click en la sesión a la que desees ir y listo, además, hay un botón en la parte de arriba que también te llevará a una selección de sesiones por si te es más cómodo.
+              </div>
+            </div>
+          
+            <div class="tabla-box">
+                <table class="tabla-personalizada">
+                  <thead>
+                    <tr>
+                      <th colspan="4" class="encabezado-largo">Sesiones por semana</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Sesión 1</td>
+                      <td>Sesión 2</td>
+                      <td>Sesión 3</td>
+                      <td>Sesión 4</td>
+                    </tr>
+                    <tr>
+                      <td>Sesión 5</td>
+                      <td>Sesión 6</td>
+                      <td>Sesión 7</td>
+                      <td>Sesión 8</td>
+                    </tr>
+                    <tr>
+                      <td>Sesión 9</td>
+                      <td>Sesión 10</td>
+                      <td>Sesión 11</td>
+                      <td>Sesión 12</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            
+          </div>
+
+
+        
+    </section>
+
+    <section class="somos">
+        <div class="contenido">
+          <div class="video">
+            <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/YKF0Dge_Q5I?si=dtST-Sd_5ohbiYQ9"
+              title="YouTube video player" frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+          </div>
+          <div class="texto">
+            <p>
+              Aquí dejo un pequeño video introductorio mio, más que nada para que me conozcan un poco mejor.
+            </p>
+          </div>
+        </div>
+      </section>
+
+        
+
+
+        <section class="MVV">
+
+            <div class="mision">
+                <div><img src="./img/ilogo.png"> </div>
+                <div><h1>Instagram</h1></div>
+                <div class="TexMVV"><a href="https://www.instagram.com/jeffelrey9/profilecard/?igsh=MTloZzcwdG82b2U2dA==">https://www.instagram.com/jeffelrey9/profilecard/?igsh=MTloZzcwdG82b2U2dA==</a>
+                </div>
+            </div>
+
+            <div class="vision">
+                <div><img src="./img/tlogo.png"></div>
+                <div><h1>Tik Tok</h1></div>
+                <div class="TexMVV"><a href="https://www.tiktok.com/@jeffelrey9?_t=ZM-8vbEXNvJNMl&_r=1">https://www.tiktok.com/@jeffelrey9?_t=ZM-8vbEXNvJNMl&_r=1</a>
+                </div>
+            </div>
+
+            <div class="valores">
+                <div><img src="./img/ylogo.png"></div>
+                <div><h1>YouTube</h1></div>
+                <div class="TexMVV"><a href="https://youtube.com/@jeffelrey9627?si=Q4z0nErhP3UsmKgj">https://youtube.com/@jeffelrey9627?si=Q4z0nErhP3UsmKgj</a>
+                    </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="contactos"> <a href=" "> 
+            <img src="./img/unidogol.png" width="10%">
+        </a>
+            
+            <div class="a1"><p> Correo electronico: 00834545@red.unid.mx</p><br>
+                                Telefono:783 182 4914
+            </div>
+
+        </section>
+       
+    </main>
+</body>
+</html>
